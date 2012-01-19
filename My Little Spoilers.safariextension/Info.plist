@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>badjokemostlikely</string>
+	<key>Builder Version</key>
+	<string>7534.53.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>My Little Spoilers</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.tildesoft.safari.MyLittleSpoilers</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>http://*.reddit.com/r/*</string>
+			<string>http://*.reddit.com/message/*</string>
+			<string>http://*.reddit.com/prefs/*</string>
+		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>userscript.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.reddit.com/*</string>
+			<string>http://*.reddit.com/r/all</string>
+			<string>http://*.reddit.com/r/random</string>
+			<string>http://*.reddit.com/r/friends</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Includes the spoiler thumbnail on /r/mylittlepony posts when browsing the front page</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.reddit.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/kballard/My-Little-Spoilers/raw/master/update.plist</string>
+	<key>Website</key>
+	<string>http://userscripts.org/scripts/show/115730</string>
+</dict>
+</plist>

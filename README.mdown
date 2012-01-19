@@ -1,0 +1,9 @@
+My Little Spoilers
+==================
+
+Port of [My Little Spoilers][source] to Safari.
+
+The current version is v1.1: [Download it now][download]
+
+[source]: http://userscripts.org/scripts/show/115730
+[download]: https://github.com/downloads/kballard/My-Little-Spoilers/My-Little-Spoilers-1.1.safariextz
